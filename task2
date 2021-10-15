@@ -1,0 +1,7 @@
+n= int (input('введите число: '))
+S=0
+while n>0:
+  S+=n
+  n= int (input('введите число: '))
+else:
+  print('Sum: ', S)
