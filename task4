@@ -1,0 +1,8 @@
+n= int (input('введите число особей: '))
+p= int (input('введите среднесуточное увеличение в %: '))
+d= int (input('введите число дней: '))
+P=1+p/100
+print("День         Популяция")
+print('1            ', n)
+for i in range(2,d+1):
+  print (i,"          ",round(n*P**(i-1), ndigits=5))
